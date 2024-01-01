@@ -1,7 +1,6 @@
 {
   "name": "karyawan.ai",
   "version": "0.1.0",
-  "homepage": "https://bardjuki.github.io/karyawan.ai",
   "private": true,
   "dependencies": {
     "@chakra-ui/icons": "^2.1.1",
@@ -26,7 +25,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d master -b build"
   },
   "eslintConfig": {
     "extends": [
