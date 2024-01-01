@@ -1,24 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import { Stack } from '@chakra-ui/react';
+import { Route, Routes } from 'react-router-dom';
+import HomePage from './Pages/Frontend/HomePage';
+import UseCasesPage from './Pages/Frontend/UseCasesPage';
+import EnterprisePage from './Pages/Frontend/EnterprisePage';
+import PricingPage from './Pages/Frontend/PricingPage';
+import BlogPage from './Pages/Frontend/BlogPage';
+import SignIn from './Pages/Frontend/SignIn';
+import SignUp from './Pages/Frontend/SignUp';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Stack position={'relative'} overflow={'hidden'}>
+    <Routes>
+      <Route path='/' element={<HomePage/>}/>
+      <Route path='/use-cases' element={<UseCasesPage/>}/>
+      <Route path='/enterprise' element={<EnterprisePage/>}/>
+      <Route path='/pricing' element={<PricingPage/>}/>
+      <Route path='/blog' element={<BlogPage/>}/>
+      <Route path='/auth/signin' element={<SignIn/>}/>
+      <Route path='/auth/signup' element={<SignUp/>}/>
+    </Routes>
+    </Stack>
   );
 }
 
