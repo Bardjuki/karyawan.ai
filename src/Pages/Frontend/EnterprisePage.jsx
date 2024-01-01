@@ -34,7 +34,7 @@ const EnterprisePage = () => {
 							textAlign={'center'}
 						>
 							<Text
-								bgGradient="linear(to-l, #7928CA, #FF0080)"
+								bgGradient="linear(to-l, #FFD460, #FFA500)"
 								bgClip="text"
 								fontSize={{ base: '2.2em', lg: '4.5em' }}
 								fontWeight="bold"

@@ -23,7 +23,7 @@ const FooterComponents = () => {
 							<Link href="/">
 								<Image
 									width={'250PX'}
-									src="https://meetcody.ai/wp-content/themes/cody_v1/assets/images/logo.svg"
+									src="https://deoapp-bucket.s3.ap-southeast-1.amazonaws.com/img-fzl/2.png"
 								/>
 							</Link>
 						</Box>

@@ -81,7 +81,7 @@ const PricingPage = () => {
 							alignItems={'center'}
 						>
 							<Text
-								bgGradient="linear(to-l, #7928CA, #FF0080)"
+								bgGradient="linear(to-l, #FFD460, #FFA500)"
 								bgClip="text"
 								fontSize={{ base: '3.5em', lg: '4.5em' }}
 								fontWeight="bold"

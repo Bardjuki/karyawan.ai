@@ -84,8 +84,10 @@ const HomePage = () => {
 						fontWeight={625}
 						textAlign={'center'}
 					>
-						Asisten AI Anda
-						<Center>Untuk Bisnis</Center>
+						<Text bgGradient="linear(to-l, #FFD460, #FFA500)"
+								bgClip="text">Asisten AI Anda</Text>
+						<Center><Text bgGradient="linear(to-l, #FFD460, #FFA500)"
+								bgClip="text">Untuk Bisnis</Text></Center>
 					</Box>
 					<Flex
 						mt={'2em'}

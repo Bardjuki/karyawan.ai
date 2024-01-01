@@ -63,7 +63,7 @@ const NavBar = () => {
 						<Link href="/">
 							<Image
 								width={'200px'}
-								src="https://meetcody.ai/wp-content/themes/cody_v1/assets/images/logo.svg"
+								src="https://deoapp-bucket.s3.ap-southeast-1.amazonaws.com/img-fzl/2.png"
 							/>
 						</Link>
 					</Box>
@@ -137,8 +137,8 @@ const NavBar = () => {
 					<Box ml={'1em'}>
 						<Link href="/">
 							<Image
-								boxSize={100}
-								src="https://meetcody.ai/wp-content/themes/cody_v1/assets/images/logo.svg"
+								width={'200px'}
+								src="https://deoapp-bucket.s3.ap-southeast-1.amazonaws.com/img-fzl/2.png"
 							/>
 						</Link>
 					</Box>
@@ -167,7 +167,7 @@ const NavBar = () => {
 								<Flex direction={'column'}>
 									<Box mt={'5em'}>
 										<Link href="/">
-											<Image src="https://meetcody.ai/wp-content/themes/cody_v1/assets/images/cody_logo_white.svg" />
+											<Image src="https://deoapp-bucket.s3.ap-southeast-1.amazonaws.com/img-fzl/2.png" />
 										</Link>
 									</Box>
 									<Flex
