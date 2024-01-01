@@ -9,7 +9,7 @@ import { HashRouter as Router } from 'react-router-dom';
 const theme = extendTheme({
 	config: {
 		initialColorMode: 'dark',
-		useSystemColorMode: false,
+		useSystemColorMode: true,
 	},
 	colors: {
 		light: {
