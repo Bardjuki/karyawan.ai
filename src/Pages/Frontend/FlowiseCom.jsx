@@ -186,7 +186,7 @@ const FlowiseCom = () => {
     ]
 	return (
 		<Stack bgColor={'rgb(21,23,25)'}>
-            <Stack mx={'6em'}>
+            <Stack mx={{lg:'6em'}}>
 			<Flex
 				justifyContent={'space-between'}
 				height={'80px'}
@@ -294,12 +294,12 @@ const FlowiseCom = () => {
 				</Box>
 			</center>
 			<Text
-
 				mt={'2em'}
 				display={'flex'}
 				justifyContent={'center'}
 				fontSize={'1.1em'}
 				textColor={'gray.500'}
+                textAlign={'center'}
 			>
 				Trusted and used by teams around the globe
 			</Text>
@@ -316,7 +316,7 @@ const FlowiseCom = () => {
 			<Divider colorScheme='gray' h={0.3}  />
 			<Flex mt={'5em'} direction={'column'} textColor={'#98A6B0'} fontWeight={500} alignItems={'center'} textAlign={'center'}>
 				<Text textColor={'white'} fontSize={['1em', '1.5em', '2.75em']} fontWeight={700}>Iterate, fast</Text>
-				<Text mt={'0.5em'} w={'35em'} >
+				<Text mt={'0.5em'} w={{lg:'35em'}} >
 					Developing LLM apps takes countless iterations. With low code
 					approach, we enable quick iterations to go from testing to production
 				</Text>
@@ -329,7 +329,7 @@ const FlowiseCom = () => {
 					Get Started
 				</Button>
 			</Flex>
-			<Flex mt={'5em'} direction={{ base: 'column-reverse', md: 'row' }} gap={'3em'}>
+			<Flex mt={['3em','5em','10em']} direction={{ base: 'column-reverse', md: 'row' }} gap={['3em','4em','5em']}  mx={'5em'}>
 				<Box w={'30em'} display={'flex'} flexDirection={'column'} textColor={'white'} justifyContent={'center'} gap={'0.25em'}>
 					<Text textColor={'blue.600'}>Chatflow</Text>
 					<Text fontSize={'1.8em'} fontWeight={'700'}>LLM Ochestration</Text>
@@ -382,11 +382,11 @@ const FlowiseCom = () => {
 					</UnorderedList>
 				</Box>
 				<Image
-					boxSize={'xl'}
+					boxSize={{base:'17em',md:'md',lg:'xl'}}
 					src="https://flowiseai.com/_ipx/w_640,q_75/%2F_next%2Fstatic%2Fmedia%2Fintegrations1.8181abd6.png?url=%2F_next%2Fstatic%2Fmedia%2Fintegrations1.8181abd6.png&w=640&q=75"
 				/>
 			</Flex>
-			<Flex mt={'6em'} direction={{ base: 'column', md: 'row' }} gap={'2em'}>
+			<Flex mt={['3em','5em','10em']} direction={{ base: 'column', md: 'row' }} gap={['3em','4em','5em']} mx={'5em'}>
 				<Box bgColor={'red'} w={'35em'} >
 					<AspectRatio
 						ratio={16 / 9}
@@ -449,7 +449,7 @@ const FlowiseCom = () => {
 					</UnorderedList>
 				</Box>
 			</Flex>
-			<Flex mt={'7em'} direction={{ base: 'column-reverse', md: 'row' }} gap={'3em'}>
+			<Flex mt={['3em','5em','10em']} direction={{ base: 'column-reverse', md: 'row' }} gap={['3em','4em','10em']} mx={'5em'}>
 				<Box w={'30em'} display={'flex'} flexDirection={'column'} textColor={'white'} justifyContent={'center'} gap={'0.25em'}>
 					<Text textColor={'blue.600'}>Developer Friendly</Text>
 					<Text fontSize={'1.8em'} fontWeight={'700'}>LLM Ochestration</Text>
@@ -505,7 +505,7 @@ const FlowiseCom = () => {
 					src="https://imagetolink.com/ib/UN9UxVZTlf.png"
 				/>
 			</Flex>
-			<Flex mt={'7em'} direction={{ base: 'column-reverse', md: 'row' }} gap={'3em'}>
+			<Flex mt={['3em','5em','10em']} direction={{ base: 'column-reverse', md: 'row' }} gap={['3em','5em','10em']} mx={'5em'}>
                 <Image
 					boxSize={'md'}
 					src="https://flowiseai.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fopensource.bed900d8.png&w=640&q=75"
@@ -802,7 +802,7 @@ const FlowiseCom = () => {
             <Box
 					mt={'5em'}
 					h={'12em'}
-					bgGradient="linear(to-l, #FFD460, #FFA500)"
+					bgGradient="linear(to-l, rgb(101,61,186), rgb(64,131,247),rgb(124,139,248))"
 					display={'flex'}
 					justifyContent={'center'}
 					alignItems={'center'}
