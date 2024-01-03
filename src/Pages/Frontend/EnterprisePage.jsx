@@ -22,7 +22,7 @@ const EnterprisePage = () => {
 				<Flex justifyContent={'center'} alignItems={'Center'}>
 					<Flex
 						mt={'9em'}
-						w={{ base: 250, lg: 869 }}
+						w={{ base: 250,md: 600, lg: 869 }}
 						h={181}
 						justifyContent={'center'}
 						direction={'column'}
@@ -42,7 +42,7 @@ const EnterprisePage = () => {
 								Solusi Kecerdasan Buatan untuk Perusahaan
 							</Text>
 						</Flex>
-						<Text textAlign={'center'} fontSize={{ base: '0.7em' }}>
+						<Text textAlign={'center'} fontSize={{ base: '0.7em', md:'1em' }}>
 							Buka potensi teknologi AI canggih untuk mengubah bisnis Anda
 							dengan Solusi Kecerdasan Buatan Enterprise kami di Karyawan AI.
 							Bayangkan dapat membangun hampir semua aset digital hanya dengan
@@ -155,7 +155,7 @@ const EnterprisePage = () => {
 				</Flex>
 				<Box
 					w={'98vw'}
-					h={{ base: '180vh', lg: '120vh' }}
+					h={{ base: '280vh',md:'160vh', lg: '120vh' }}
 					borderRadius={'1em'}
 					bgColor={'rgb(31,32,61)'}
 				>
@@ -182,9 +182,9 @@ const EnterprisePage = () => {
 							dengan lebih dari 1.000 bisnis dan dapat membantu bisnis Anda
 							memanfaatkan kekuatan teknologi AI canggih. Kami menawarkan:
 						</Text>
-						<SimpleGrid columns={{ base: 1, lg: 2 }} mt={'6em'}>
-							<Box ml={'2em'} w={{ base: '17em', lg: '629' }}>
-								<Flex direction={'column'}>
+						<SimpleGrid columns={{ base: 1, md: 2 }} mt={{base:'2em',lg:'6em'}}>
+							<Box ml={'2em'} w={{ base: '17em', lg: '629px' }}>
+								<Flex direction={'column'} textAlign={{base: 'center', md:'start'}}>
 									<Flex flexDir={'column'}>
 										<Text fontSize={'1.5em'} fontWeight={600}>
 											Strategi Keberhasilan Terbukti untuk Perusahaan
@@ -196,7 +196,7 @@ const EnterprisePage = () => {
 											prioritas utama.
 										</Text>
 									</Flex>
-									<Flex mt={'5em'} flexDir={'column'}>
+									<Flex mt={{base:'2em'}} flexDir={'column'}>
 										<Text fontSize={'1.5em'} fontWeight={600}>
 											Solusi yang Ekonomis
 										</Text>
@@ -209,8 +209,8 @@ const EnterprisePage = () => {
 									</Flex>
 								</Flex>
 							</Box>
-							<Box ml={'2em'} w={{ base: '17em', lg: '629' }}>
-								<Flex direction={'column'}>
+							<Box ml={'2em'} mt={{base:'2em',md:'0em' }} w={{ base: '17em', lg: '629px' }}>
+								<Flex direction={'column'} textAlign={{base: 'center', md:'start'}}>
 									<Flex flexDir={'column'}>
 										<Text fontSize={'1.5em'} fontWeight={600}>
 											Model Disesuaikan untuk Akurasi yang Ditingkatkan
@@ -222,7 +222,7 @@ const EnterprisePage = () => {
 											terbuka yang telah dilatih sebelumnya.
 										</Text>
 									</Flex>
-									<Flex mt={'5em'} flexDir={'column'}>
+									<Flex mt={{base:'2em'}} flexDir={'column'}>
 										<Text fontSize={'1.5em'} fontWeight={600}>
 											Solusi AI dari Awal hingga Akhir
 										</Text>

@@ -8,12 +8,15 @@ import PricingPage from './Pages/Frontend/PricingPage';
 import BlogPage from './Pages/Frontend/BlogPage';
 import SignIn from './Pages/Frontend/SignIn';
 import SignUp from './Pages/Frontend/SignUp';
+import FlowiseCom from './Pages/Frontend/FlowiseCom';
 
 function App() {
   return (
     <Stack position={'relative'} overflow={'hidden'}>
     <Routes>
-      <Route path='/' element={<HomePage/>}/>
+      
+      <Route path='/' element={<FlowiseCom/>}/>
+      <Route path='/home' element={<HomePage/>}/>
       <Route path='/use-cases' element={<UseCasesPage/>}/>
       <Route path='/enterprise' element={<EnterprisePage/>}/>
       <Route path='/pricing' element={<PricingPage/>}/>

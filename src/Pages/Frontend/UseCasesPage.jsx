@@ -77,26 +77,26 @@ const UseCasesPage = () => {
 							bgColor={'rgb(31,32,60)'}
 							mr={3}
 							borderRadius={40}
-							w={{ lg: 674 }}
-							h={{ lg: 553 }}
+						
 						>
 							<Image
+								mt={'1em'}
 								boxSize={{ base: '4em', lg: '7em' }}
 								src="https://meetcody.ai/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/05/Icon.png.webp"
 							/>
 							<Text
 								fontSize={{ lg: '2.5em' }}
 								fontWeight={600}
-								mt={{ base: 2, lg: 5 }}
+								mt={{ base: 2, xl: 5 }}
 							>
 								Marketing AI Assistant
 							</Text>
 							<Text
 								textAlign={'center'}
 								mt={{ base: 3, lg: 5 }}
-								h={{ lg: 127 }}
-								w={{ lg: 424 }}
-								fontSize={{ base: '0.75em' }}
+								h={{ xl: 127 }}
+								w={{ xl: 424 }}
+								fontSize={{ base: '0.75em', md:'0.9em' }}
 							>
 								Bot Asisten Pemasaran bertindak sebagai chatbot yang canggih
 								ditenagai oleh kecerdasan buatan, dirancang untuk memberikan
@@ -114,8 +114,8 @@ const UseCasesPage = () => {
 							>
 								<MotionBox
 									as={Button}
-									width={{ lg: '23em' }}
-									height={{ base: '2em', lg: '5em' }}
+									width={{xl: '23em' }}
+									height={{ base: '2em', xl: '5em' }}
 									borderRadius={100}
 									border={'none'}
 									bgColor={'rgb(42,72,223)'}
@@ -127,7 +127,7 @@ const UseCasesPage = () => {
 									}}
 								>
 									<NavLink to={'/auth/login'}>
-										<Text textColor={'white'} fontSize={'2xs'} fontWeight={700}>
+										<Text textColor={'white'} fontSize={{base: '2xs', xl:'xl'}} fontWeight={700}>
 											Pelajari Lebih Lanjut
 										</Text>
 									</NavLink>
@@ -144,10 +144,9 @@ const UseCasesPage = () => {
 							bgColor={'rgb(31,32,60)'}
 							mr={3}
 							borderRadius={40}
-							w={{ lg: 674 }}
-							h={{ lg: 553 }}
 						>
 							<Image
+								mt={'1em'}
 								boxSize={{ base: '4em', lg: '7em' }}
 								src="https://meetcody.ai/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/05/Icon-3.png.webp"
 							/>
@@ -161,9 +160,9 @@ const UseCasesPage = () => {
 							<Text
 								textAlign={'center'}
 								mt={{ base: 3, lg: 5 }}
-								h={{ lg: 127 }}
-								w={{ lg: 424 }}
-								fontSize={{ base: '0.75em' }}
+								h={{ xl: 127 }}
+								w={{ xl: 424 }}
+								fontSize={{ base: '0.75em', md:'0.9em' }}
 							>
 								Optimalkan departemen HR Anda dan tingkatkan komunikasi dengan
 								karyawan dengan membuat Chatbot HR Anda sendiri. Berikan akses
@@ -181,8 +180,8 @@ const UseCasesPage = () => {
 							>
 								<MotionBox
 									as={Button}
-									width={{ lg: '23em' }}
-									height={{ base: '2em', lg: '5em' }}
+									width={{ xl: '23em' }}
+									height={{ base: '2em', xl: '5em' }}
 									borderRadius={100}
 									border={'none'}
 									bgColor={'rgb(42,72,223)'}
@@ -194,8 +193,8 @@ const UseCasesPage = () => {
 									}}
 								>
 									<NavLink to={'/auth/login'}>
-										<Text textColor={'white'} fontSize={'2xs'} fontWeight={700}>
-											Learn More
+										<Text textColor={'white'} fontSize={{base: '2xs', xl:'xl'}} fontWeight={700}>
+										Pelajari Lebih Lanjut
 										</Text>
 									</NavLink>
 								</MotionBox>
@@ -211,10 +210,10 @@ const UseCasesPage = () => {
 							bgColor={'rgb(31,32,60)'}
 							mr={3}
 							borderRadius={40}
-							w={{ lg: 674 }}
-							h={{ lg: 553 }}
+				
 						>
 							<Image
+								mt={'1em'}
 								boxSize={{ base: '4em', lg: '7em' }}
 								src="https://meetcody.ai/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/05/New-Project-71.png.webp"
 							/>
@@ -228,9 +227,9 @@ const UseCasesPage = () => {
 							<Text
 								textAlign={'center'}
 								mt={{ base: 3, lg: 5 }}
-								h={{ lg: 127 }}
-								w={{ lg: 424 }}
-								fontSize={{ base: '0.75em' }}
+								h={{ xl: 127 }}
+								w={{ xl: 424 }}
+								fontSize={{ base: '0.75em', md:'0.9em' }}
 							>
 								Memberdayakan tim dukungan IT Anda dengan Chatbot Dukungan IT
 								yang dipersonalisasi yang dengan efisien menjawab pertanyaan
@@ -248,8 +247,8 @@ const UseCasesPage = () => {
 							>
 								<MotionBox
 									as={Button}
-									width={{ lg: '23em' }}
-									height={{ base: '2em', lg: '5em' }}
+									width={{ xl: '23em' }}
+									height={{ base: '2em', xl: '5em' }}
 									borderRadius={100}
 									border={'none'}
 									bgColor={'rgb(42,72,223)'}
@@ -261,8 +260,8 @@ const UseCasesPage = () => {
 									}}
 								>
 									<NavLink to={'/auth/login'}>
-										<Text textColor={'white'} fontSize={{base:'2xs', md:'5em'}} fontWeight={700}>
-											Learn More
+										<Text textColor={'white'} fontSize={{base: '2xs', xl:'xl'}} fontWeight={700}>
+										Pelajari Lebih Lanjut
 										</Text>
 									</NavLink>
 								</MotionBox>
@@ -278,8 +277,6 @@ const UseCasesPage = () => {
 							bgColor={'rgb(31,32,60)'}
 							mr={3}
 							borderRadius={40}
-							w={{ lg: 674 }}
-							h={{ lg: 553 }}
 						>
 							<Image
 								boxSize={{ base: '4em', lg: '7em' }}
@@ -295,9 +292,9 @@ const UseCasesPage = () => {
 							<Text
 								textAlign={'center'}
 								mt={{ base: 3, lg: 5 }}
-								h={{ lg: 127 }}
-								w={{ lg: 424 }}
-								fontSize={{ base: '0.75em' }}
+								h={{ xl: 127 }}
+								w={{ xl: 424 }}
+								fontSize={{ base: '0.75em', md:'0.9em' }}
 							>
 								Tingkatkan keputusan strategis Anda dengan Asisten AI Konsultan
 								Bisnis yang disesuaikan. Manfaatkan kekuatan Pembangun AI kami
@@ -315,8 +312,8 @@ const UseCasesPage = () => {
 							>
 								<MotionBox
 									as={Button}
-									width={{ lg: '23em' }}
-									height={{ base: '2em', lg: '5em' }}
+									width={{ xl: '23em' }}
+									height={{ base: '2em', xl: '5em' }}
 									borderRadius={100}
 									border={'none'}
 									bgColor={'rgb(42,72,223)'}
@@ -328,8 +325,8 @@ const UseCasesPage = () => {
 									}}
 								>
 									<NavLink to={'/auth/login'}>
-										<Text textColor={'white'} fontSize={'2xs'} fontWeight={700}>
-											Learn More
+										<Text textColor={'white'} fontSize={{base: '2xs', xl:'xl'}} fontWeight={700}>
+										Pelajari Lebih Lanjut
 										</Text>
 									</NavLink>
 								</MotionBox>
@@ -345,8 +342,7 @@ const UseCasesPage = () => {
 							bgColor={'rgb(31,32,60)'}
 							mr={3}
 							borderRadius={40}
-							w={{ lg: 674 }}
-							h={{ lg: 553 }}
+					
 						>
 							<Image
 								boxSize={{ base: '4em', lg: '7em' }}
@@ -362,9 +358,9 @@ const UseCasesPage = () => {
 							<Text
 								textAlign={'center'}
 								mt={{ base: 3, lg: 5 }}
-								h={{ lg: 127 }}
-								w={{ lg: 424 }}
-								fontSize={{ base: '0.75em' }}
+								h={{ xl: 127 }}
+								w={{ xl: 424 }}
+								fontSize={{ base: '0.75em', md:'0.9em' }}
 							>
 								Buka potensi ide inovatif dengan Asisten Kreatif yang
 								dipersonalisasi untuk mendukung bisnis Anda dalam tugas kreatif.
@@ -381,8 +377,8 @@ const UseCasesPage = () => {
 							>
 								<MotionBox
 									as={Button}
-									width={{ lg: '23em' }}
-									height={{ base: '2em', lg: '5em' }}
+									width={{ xl: '23em' }}
+									height={{ base: '2em', xl: '5em' }}
 									borderRadius={100}
 									border={'none'}
 									bgColor={'rgb(42,72,223)'}
@@ -394,8 +390,8 @@ const UseCasesPage = () => {
 									}}
 								>
 									<NavLink to={'/auth/login'}>
-										<Text textColor={'white'} fontSize={'2xs'} fontWeight={700}>
-											Learn More
+										<Text textColor={'white'} fontSize={{base: '2xs', xl:'xl'}} fontWeight={700}>
+										Pelajari Lebih Lanjut
 										</Text>
 									</NavLink>
 								</MotionBox>
@@ -411,8 +407,8 @@ const UseCasesPage = () => {
 							bgColor={'rgb(31,32,60)'}
 							mr={3}
 							borderRadius={40}
-							w={{ lg: 674 }}
-							h={{ lg: 553 }}
+							w={{ xl: 674 }}
+							h={{ xl: 553 }}
 						>
 							<Image
 								boxSize={{ base: '4em', lg: '7em' }}
@@ -428,9 +424,9 @@ const UseCasesPage = () => {
 							<Text
 								textAlign={'center'}
 								mt={{ base: 3, lg: 5 }}
-								h={{ lg: 127 }}
-								w={{ lg: 424 }}
-								fontSize={{ base: '0.75em' }}
+								h={{ xl: 127 }}
+								w={{ xl: 424 }}
+								fontSize={{ base: '0.75em', md:'0.9em' }}
 							>
 								Optimalkan upaya penjualan Anda dengan Sales Assistant yang
 								dibangun khusus. Manfaatkan kekuatan AI Builder kami untuk
@@ -448,8 +444,8 @@ const UseCasesPage = () => {
 							>
 								<MotionBox
 									as={Button}
-									width={{ lg: '23em' }}
-									height={{ base: '2em', lg: '5em' }}
+									width={{ xl: '23em' }}
+									height={{ base: '2em', xl: '5em' }}
 									borderRadius={100}
 									border={'none'}
 									bgColor={'rgb(42,72,223)'}
@@ -461,8 +457,8 @@ const UseCasesPage = () => {
 									}}
 								>
 									<NavLink to={'/auth/login'}>
-										<Text textColor={'white'} fontSize={'2xs'} fontWeight={700}>
-											Learn More
+										<Text textColor={'white'} fontSize={{base: '2xs', xl:'xl'}} fontWeight={700}>
+										Pelajari Lebih Lanjut
 										</Text>
 									</NavLink>
 								</MotionBox>
